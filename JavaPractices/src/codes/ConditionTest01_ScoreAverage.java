@@ -2,7 +2,7 @@ package codes;
 
 import java.util.Scanner;
 
-public class ScoreAverage {
+public class ConditionTest01_ScoreAverage {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
@@ -12,6 +12,8 @@ public class ScoreAverage {
 		int mathScore = scanner.nextInt();
 		System.out.print("영어 점수 : ");
 		int englishScore = scanner.nextInt();
+		
+		scanner.close();
 
 		int avg = (koreanScore + mathScore + englishScore) / 3;
 
