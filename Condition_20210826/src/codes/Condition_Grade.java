@@ -12,6 +12,7 @@ public class Condition_Grade {
 		// 그 외 -> F
 
 		Scanner scanner = new Scanner(System.in);
+		
 
 		System.out.print("점수 입력 : ");
 		int score = scanner.nextInt();
