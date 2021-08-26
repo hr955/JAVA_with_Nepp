@@ -4,7 +4,7 @@ public class MainDrive {
 	
 	public static void main(String[] args) {
 		
-		// Ctrl + F11 : ÇÁ·Î±×·¥ ½ÇÇà
+		// Ctrl + F11 :  RUN ë‹¨ì¶•í‚¤
 		
 		System.out.println("Hello World!");
 		

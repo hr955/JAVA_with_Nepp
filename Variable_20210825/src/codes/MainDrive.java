@@ -4,28 +4,28 @@ public class MainDrive {
 
 	public static void main(String[] args) {
 
-		// º¯¼ö Æ¯ÀÌ»çÇ×
-		// 1.¸¸µé°í ³ª¼­ »ç¿ëÇØ¾ßÇÔ
+		// ë³€ìˆ˜ íŠ¹ì´ì‚¬í•­
+		// 1.ë§Œë“¤ê³  ë‚˜ì„œ ì‚¬ìš©í•´ì•¼í•¨
 		int num;
 
-		// 2. ÀÌ¸§ Áßº¹ X
+		// 2. ì´ë¦„ ì¤‘ë³µ X
 
-		// 3. º¯¼ö¿¡ µé¾îÀÖ´Â µ¥ÀÌÅÍ´Â º¯°æÀÌ °¡´É
+		// 3.ë³€ìˆ˜ì— ë“¤ì–´ìˆëŠ” ë°ì´í„°ëŠ” ë³€ê²½ì´ ê°€ëŠ¥
 		num = 20;
 		System.out.println(num);
 
-		// 4. º¯¼öÀÇ °ªÀ» °íÁ¤ : final
+		// 4. ë³€ìˆ˜ì˜ ê°’ì„ ê³ ì • : final
 		final double PI = 3.14;
 		// PI = 20;
 
-		// 5.º¯¼ö µ¥ÀÌÅÍ/ÀÚ·áÇü ÀÏÄ¡
+		// 5.ë³€ìˆ˜ ë°ì´í„°/ìë£Œí˜• ì¼ì¹˜
 		int myAge = 34;
 		//myAge = 34.5;
 
 		float myHeight = 180.3f;
-		double myWeight = 80;  //doubleÀº int°ªÀ» ¹Ş¾ÆÁÜ
+		double myWeight = 80;  //doubleì€ intê°’ì„ ë°›ì•„ì¤Œ
 		
-		String myName = "Àåµ¶´ë";
+		String myName = "íŠœë¸Œ";
 		boolean isMale = false;
 
 		System.out.println(myAge);

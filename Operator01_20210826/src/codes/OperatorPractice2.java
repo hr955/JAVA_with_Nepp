@@ -7,6 +7,6 @@ public class OperatorPractice2 {
 		double nowMoney = 115000;
 		double rate = (nowMoney - startMoney) / startMoney * 100;
 
-		System.out.println("¼öÀÍ·ü = " + rate + "%");
+		System.out.println("ìˆ˜ìµë¥  = " + rate + "%");
 	}
 }

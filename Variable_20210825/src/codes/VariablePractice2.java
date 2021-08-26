@@ -3,8 +3,7 @@ package codes;
 public class VariablePractice2 {
 	public static void main(String[] args) {
 		
-		
-		//Q. num1°ú num2ÀÇ °ªÀ» ¼­·Î ¹Ù²Ù±â
+		//Q. num1ê³¼ num2ì˜ ê°’ì„ ì„œë¡œ ë°”ê¾¸ê¸°
 		int num1 = 50;
 		int num2 = 20;
 		

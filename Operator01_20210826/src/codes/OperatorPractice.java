@@ -5,7 +5,7 @@ public class OperatorPractice {
 
 		int myBirthYear = 2000;
 		int myKoreaAge = 2021 - myBirthYear + 1;
-		System.out.println(myBirthYear + "³â»ı-" + myKoreaAge + "¼¼");
+		System.out.println(myBirthYear + "ë…„ìƒ-" + myKoreaAge + "ì„¸");
 
 	}
 }
