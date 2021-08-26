@@ -20,6 +20,8 @@ public class Condition_Grade {
 		// 등수 입력
 		System.out.print("등수 입력 : ");
 		int rank = scanner.nextInt();
+		
+		scanner.close();
 
 		// 90점 이상인가?
 		if (score >= 90) {

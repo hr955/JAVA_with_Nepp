@@ -11,6 +11,8 @@ public class MainDrives {
 		
 		int userAge = myScanner.nextInt();
 		
+		myScanner.close();
+		
 		if (userAge >= 20) {
 			System.out.println("성인");
 		} else if (userAge >= 17) {

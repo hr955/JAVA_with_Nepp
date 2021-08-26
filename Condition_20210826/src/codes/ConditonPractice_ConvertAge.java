@@ -13,6 +13,8 @@ public class ConditonPractice_ConvertAge {
 		//출생년도 사용자 입력
 		int birthYear = scanner.nextInt();
 		
+		scanner.close();
+		
 		//현재 나이
 		int age = 2021 - birthYear + 1;
 
