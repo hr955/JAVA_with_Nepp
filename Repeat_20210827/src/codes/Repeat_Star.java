@@ -40,7 +40,6 @@ public class Repeat_Star {
 
 		System.out.print("숫자 입력 : ");
 		int num = scanner.nextInt();
-
 		scanner.close();
 
 		for (int i = 0; i < num; i++) {
