@@ -1,6 +1,6 @@
 package codes;
 
-public class MainDrive {
+public class Repeat_While {
 	public static void main(String[] args) {
 
 		int num = 1;
