@@ -1,5 +1,7 @@
 package codes;
 
+import java.util.Scanner;
+
 public class Array_Practice_NumberBaseball {
 	public static void main(String[] args) {
 
@@ -26,8 +28,8 @@ public class Array_Practice_NumberBaseball {
 
 					}
 				}
-				
-				//중복 검사를 통과했다면 배열에 담아줌
+
+				// 중복 검사를 통과했다면 배열에 담아줌
 				if (isDuplOk) {
 					questionNumArr[i] = randonNum;
 					break;
@@ -36,10 +38,28 @@ public class Array_Practice_NumberBaseball {
 			}
 
 		}
-		
+
 		for (int num : questionNumArr) {
 			System.out.print(num + " ");
 		}
+
+		Scanner scanner = new Scanner(System.in);
+
+		// 사용자 입력값
+		int[] inputNumArr = new int[3];
+
+		while (true) {
+			System.out.print("3자리 숫자 입력");
+			int input = scanner.nextInt();
+
+			// 입력받은 세자리 숫자를 자릿수별로 쪼개 배열에 입력
+			// 356 -> arr[0] = 3, arr[1] = 5, arr[2] = 6
+			inputNumArr[0] = input / 100;
+			inputNumArr[1] = input / 10;
+			inputNumArr[2] = input % 10;
+		}
+
+		scanner.close();
 
 	}
 
