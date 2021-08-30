@@ -36,6 +36,10 @@ public class Array_Practice_NumberBaseball {
 			}
 
 		}
+		
+		for (int num : questionNumArr) {
+			System.out.print(num + " ");
+		}
 
 	}
 
