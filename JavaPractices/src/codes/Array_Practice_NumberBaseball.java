@@ -48,10 +48,15 @@ public class Array_Practice_NumberBaseball {
 
 		// 사용자 입력값
 		int[] inputNumArr = new int[3];
+		
+		//시도 횟수를 담을 변수
+		int tryCnt = 0; //
 
 		while (true) {
 			System.out.print("3자리 숫자 입력 : ");
 			int input = scanner.nextInt();
+			tryCnt++;
+			
 
 			// 입력받은 세자리 숫자를 자릿수별로 쪼개 배열에 입력
 			// 356 -> arr[0] = 3, arr[1] = 5, arr[2] = 6
@@ -62,6 +67,7 @@ public class Array_Practice_NumberBaseball {
 			// 입력값과 정답 비교 : ? S, ? B
 			int strikeCnt = 0;
 			int ballCnt = 0;
+			
 
 			// 입력값과 정답이 일치하는지 검토
 			for (int i = 0; i < inputNumArr.length; i++) {
@@ -79,17 +85,15 @@ public class Array_Practice_NumberBaseball {
 					}
 				}
 			}
-
+			
 			System.out.println(strikeCnt + "S, " + ballCnt + "B");
 
 			if (strikeCnt == 3) {
-				System.out.println("정답입니다!");
+				System.out.println("정답입니다! \n시도 횟수 : " + tryCnt + "회");
 				break;
 			}
 		}
-
 		scanner.close();
-
 	}
 
 }
