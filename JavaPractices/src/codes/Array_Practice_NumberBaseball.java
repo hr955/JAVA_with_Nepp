@@ -42,6 +42,7 @@ public class Array_Practice_NumberBaseball {
 		for (int num : questionNumArr) {
 			System.out.print(num + " ");
 		}
+		System.out.println();
 
 		Scanner scanner = new Scanner(System.in);
 
@@ -49,14 +50,42 @@ public class Array_Practice_NumberBaseball {
 		int[] inputNumArr = new int[3];
 
 		while (true) {
-			System.out.print("3자리 숫자 입력");
+			System.out.print("3자리 숫자 입력 : ");
 			int input = scanner.nextInt();
 
 			// 입력받은 세자리 숫자를 자릿수별로 쪼개 배열에 입력
 			// 356 -> arr[0] = 3, arr[1] = 5, arr[2] = 6
 			inputNumArr[0] = input / 100;
-			inputNumArr[1] = input / 10;
+			inputNumArr[1] = (input / 10) % 10;
 			inputNumArr[2] = input % 10;
+
+			// 입력값과 정답 비교 : ? S, ? B
+			int strikeCnt = 0;
+			int ballCnt = 0;
+
+			// 입력값과 정답이 일치하는지 검토
+			for (int i = 0; i < inputNumArr.length; i++) {
+				for (int j = 0; j < questionNumArr.length; j++) {
+					// 입력값과 정답이 일치하는 경우
+					if (inputNumArr[i] == questionNumArr[j]) {
+						// index도 일치하는지 확인
+						if (i == j) {
+							// index가 일치하면 strike
+							strikeCnt++;
+						} else {
+							// 정답은 일치하지만 index가 다르다면 ball
+							ballCnt++;
+						}
+					}
+				}
+			}
+
+			System.out.println(strikeCnt + "S, " + ballCnt + "B");
+
+			if (strikeCnt == 3) {
+				System.out.println("정답입니다!");
+				break;
+			}
 		}
 
 		scanner.close();
