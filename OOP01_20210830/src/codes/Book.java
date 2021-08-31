@@ -7,6 +7,10 @@ public class Book {
 	String title;
 	int limitAge;
 	int rentFee;
+	
+	//빌려간 사람
+	User rentUser = null;
+	
 
 	// 책의 정보를 출력해주는 메소드 -> 출력만, return X
 	void printBookInfo() {

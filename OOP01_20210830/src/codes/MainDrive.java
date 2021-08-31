@@ -4,16 +4,16 @@ package codes;
 
 public class MainDrive {
 	public static void main(String[] args) {
-		
-		//User 클래스를 객체화
+
+		// User 클래스를 객체화
 		User u1 = new User();
-		
+
 		u1.name = "해리";
 		u1.birthYear = 1980;
 		u1.point = 10000;
 
 		User u2 = new User();
-		
+
 		u2.name = "헤르미온느";
 		u2.birthYear = 1979;
 		u2.point = 20000;
@@ -35,10 +35,16 @@ public class MainDrive {
 		b2.rentFee = 500;
 
 		b2.printBookInfo();
-		
-		//사용자 정보 출력 기능
+
+		// 사용자 정보 출력 기능
 		u1.printUserInfo();
 		u2.printUserInfo();
+
+		// 해리포터를 빌려간사람은 헤르미온느
+		b1.rentUser = u2;
+
+		// 책 반납등의 이유로, 해리포터를 빌려간 사람이 없어졌다.
+		b1.rentUser = null;
 
 	}
 }
