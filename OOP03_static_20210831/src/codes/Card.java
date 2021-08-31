@@ -15,8 +15,7 @@ public class Card {
 
 	static void printCardClassInfo() {
 		System.out.println("포커 카드에 대한 묘사를 하는 클래스");
-		// this, pattern 사용 X
 		// static 변수들만 사용가능
+		// this, pattern 사용 X
 	}
-
 }
