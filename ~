@@ -1,0 +1,30 @@
+OOP_Advanced_05_AcessModifier_20210901
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Wed Sep 1 10:07:17 2021 +0900
+#
+# interactive rebase in progress; onto 8930d65
+# Last command done (1 command done):
+#    reword 69efe5e OOP_Advanced_04_abstract_20210901
+# Next commands to do (4 remaining commands):
+#    pick 7266399 create OOP_Advanced_05_AccessModifier
+#    pick ea3bb05 create OOP_Advanced_06_GetterAndSetter
+# You are currently editing a commit while rebasing branch 'master' on '8930d65'.
+#
+# Changes to be committed:
+#	new file:   OOP_Advanced_04_abstract_20210901/.classpath
+#	new file:   OOP_Advanced_04_abstract_20210901/.gitignore
+#	new file:   OOP_Advanced_04_abstract_20210901/.project
+#	new file:   OOP_Advanced_04_abstract_20210901/.settings/org.eclipse.jdt.core.prefs
+#	new file:   OOP_Advanced_04_abstract_20210901/src/codes/Animal.java
+#	new file:   OOP_Advanced_04_abstract_20210901/src/codes/Cat.java
+#	new file:   OOP_Advanced_04_abstract_20210901/src/codes/Dog.java
+#	new file:   OOP_Advanced_04_abstract_20210901/src/codes/MainDrive.java
+#
+# Untracked files:
+#	OOP_Advanced_05_AccessModifier_20210901/
+#	OOP_Advanced_06_GetterAndSetter_20210901/
+#	OOP_Advanced_07_Polymorphism_20210901/
+#
